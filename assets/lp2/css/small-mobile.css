@@ -1,0 +1,183 @@
+@media (max-width:576px) {
+  .section002 .text-pp {
+    font-size:0.7em;
+  }
+
+
+}
+
+
+ @media (max-width:414px) {
+  .product-title {
+  font-size:1.1em;
+  font-weight:bold;
+}
+
+  .section_003 .text_003 h5 {
+    font-size: 0.6em;
+ }
+
+  .top-banner h1 {
+    font-size: 1.5em;
+  }
+
+  .top-banner h3 {
+    font-size:0.7em;
+  }
+
+  .purchase .select h3 {
+    font-size:1.5em;
+  }
+
+  .purchase .select h5 {
+    font-size: 14px;
+  }
+
+  .purchase .platinum a, .purchase .premium a, .purchase .head-spa a {
+    font-size: 0.9em;
+  }
+
+  .purchase_and_shipment_details h3 {
+    font-size: 0.8em;
+  }
+
+  .shampoo-treatment-purchase .shampoo-treatment-subscription {
+    font-size:0.7em;
+  }
+
+  .shampoo-treatment-purchase .shampoo-treatment-subscription-price p {
+    color: white;
+    font-size: 0.7em;
+  }
+
+  .shampoo-treatment-purchase .shampoo-treatment-subscription-price p strong {
+    font-size: 3em;
+  }
+
+  .shampoo-treatment-item p em {
+    font-size:18px;
+  }
+
+  .trial-set .trial-set-item p span {
+    font-size: 24px;
+  }
+
+  .subscription img.product {
+    display: none;
+  }
+
+  .subscription img.mobile-disp {
+    display: block;
+  }
+
+}
+
+
+
+
+
+ /* smartphone view 375px and down */
+@media (max-width: 375px) {
+  .slash {
+    display: none;
+  }
+
+  .top-banner h1{
+    font-size:1.5em;
+  }
+
+  .top-banner h3 {
+    font-size:0.7em;
+  }
+
+
+  .stylist-evaluation h6 {
+    font-size:0.8em;
+  }
+
+  .stylist-evaluation h4 {
+    font-size:1.3em;
+    font-weight:bold;
+  }
+
+  .stylist-evaluation h5 {
+    font-weight:bold;
+    font-size:1.1em;
+  }
+
+  .section_001 h4 {
+    font-size:0.9em;
+    font-weight:bold;
+  }
+
+  .section_002 h2 {
+    font-size:20px;
+  }
+
+  .section_002 p {
+    font-size: 0.8em;
+  }
+
+  .section_003 .text_003 h5 {
+    font-size: 0.6em;
+  }
+
+  .panel-title {
+    font-size: 0.9em;
+  }
+
+  .section001 p {
+    font-size: 0.9em;
+  }
+
+  .section002 .text h3 {
+    font-size: 1.5em;
+  }
+
+  .section002 .text p {
+    font-size: 0.9em;
+  }
+
+  .section002 .text-pp {
+    font-size:0.8em;
+  }
+
+
+  .shampoo-treatment h3 {
+    font-size: 18px;
+  }
+
+  .one-by-one h2 {
+    font-size: 1.4em;
+  }
+
+  .trial-set .trial-set-item {
+    width: 95%;
+  }
+
+  .subscription-warning h4 {
+    font-size: 0.9em;
+    margin-bottom:6vh;
+  }
+
+  .subscription-warning h5 {
+    font-size: 1.4em;
+  }
+
+  .purchase .select h5 {
+    font-size: 14px;
+  }
+
+  .purchase .platinum a, .purchase .premium a, .purchase .head-spa a {
+    font-size: 0.9em;
+  }
+
+  .purchase_and_shipment_details h3 {
+    font-size: 0.7em;
+  }
+
+  .purchase_and_shipment_details p {
+    font-size: 0.6em;
+  }
+
+}

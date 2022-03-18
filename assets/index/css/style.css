@@ -1,0 +1,1162 @@
+/* #contents { background: #D7D2CB;} */
+
+.br_on {
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+    .sect-001 .bottom-text h5 {
+      font-size: 1.5em;
+    }
+
+    .sect-001 .title h2 {
+      font-size: 0.8em;
+    }
+    .logo {
+      width:40%;
+    }
+
+    .br_on {
+        display: block;
+    }
+
+    .sect-001 p {
+        font-size:1em;
+        bottom:40px;
+    }
+    .sect-002 h1 {
+        font-size:1.5em;
+        padding:2vh 0;
+    }
+
+    .sect-003 .inner {
+        width:95%;
+    }
+
+    .sect-003 .inner h2 {
+        font-size:0.8em;
+    }
+
+    .sect-003 .inner p {
+        font-size:0.9em;
+    }
+
+    .sect-003 .inner .img {
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+
+
+    .sect-004 h1 {
+        font-size:1.5em;
+    }
+
+
+
+
+    .sect-004 .inner h2 {
+        font-size:0.9em;
+        text-align: center;
+    }
+
+    .sect-004 .inner h3 {
+        font-size:1.25em;
+    }
+
+    .sect-005 .inner .area {
+        z-index: 2;
+        bottom:-30px;
+        left:20px;
+    }
+
+    .sect-005 .inner .discount {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+    .sect-005 .inner .sub-class h2 {
+        font-size:1em;
+    }
+
+    .sect-005 .inner .sub-class .red p {
+        color: #fff;
+        background: #B6362D;
+        font-size: 1.2em;
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .sect-005 .inner .sub-class p {
+        font-size:1.25em;
+    }
+
+    .sect-005 .inner .sub-class .product p {
+        width:70%;
+        margin:20px auto;
+    }
+
+    .sect-005 .inner .sub-class .product h5 strong {
+        padding-left: 2vw;
+    }
+
+    .sect-005 .inner .sub-class .product h5 span {
+        letter-spacing: -20px;
+        padding-right: 5px;
+        font-size:2.5em;
+    }
+
+    .sect-005 .inner .sub-class .product h6 {
+      font-size:0.8em;
+    }
+
+    .sect-006 .inner {
+        padding: 20px 0;
+    }
+
+    .sect-006 .inner h1 {
+        font-size:0.9em;
+    }
+
+    .sect-006 .inner h2 {
+        font-size:1.25em;
+    }
+
+    .sect-007 .inner p {
+        font-size: 1.2em;
+        padding-top:2vh;
+    }
+
+    .sect-007 .inner h3 {
+        font-size:2.25em;
+    }
+
+    .sect-007 .inner h2 {
+        font-size:1.5em;
+    }
+
+    .sect-007 .inner .w95 p {
+        font-size:0.6em;
+        text-align:center;
+        padding-left:5px;
+    }
+
+    .sect-007 .inner .txtarea {
+        width:90%;
+    }
+
+    .sect-007 .inner .txtarea h2 {
+        max-width:80%;
+        margin-left:0;
+    }
+
+    .sect-007 .inner .txtarea h3 {
+        font-size:1.5em;
+    }
+
+
+
+    .sect-007 .inner .txtarea p {
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+    .sect-007 .inner .txtarea .col-5 {
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    .sect-008 .inner h2 {
+        font-size: 36px;
+        padding-top: 30px;
+    }
+
+    .sect-008 .inner p {
+        font-size: 14px;
+    }
+
+    .sect-008 .inner h2 span {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .sect-009 .inner .sub-inner .sect-009_chart p {
+        margin-left:5px;
+        line-height: 2em;
+        text-align:left;
+        font-size:9px;
+    }
+
+    .sect-009 .inner .sub-inner-1 .title h5 {
+        text-align: center;
+        padding: 12px 0;
+        width: 92%;
+        opacity: 0.8;
+        font-size: 1.25em;
+    }
+
+    .sect-009 .inner .sub-inner-1 .ingredients {
+        line-height: 22px;
+        font-size: 10px;
+    }
+
+    .sect-009 .inner .sub-inner-1 .sect-009-txt {
+        width: 80%;
+        margin: 20px auto;
+        border: 1px solid #fff;
+        padding: 5px 6px 0;
+        box-sizing: border-box;
+        line-height: 1.5em;
+        font-size: 9px;
+    }
+
+    .sect-009 .inner .sub-inner-1 .sect-009_chart p {
+        margin-left: 10px;
+        line-height: 1.5em;
+    }
+
+
+    .sect-010 .inner .sect010_steps .s10_text p {
+        font-size:0.6em;
+        padding:5px 0;
+    }
+    .sect-010 .inner .sect010_steps .s10_text p strong {
+        font-size: 1.25em;
+    }
+
+    .sect-010 .inner .sect010_steps .s10_inner {
+        width:100%;
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    .sect-010 .inner .sect010_steps .s10_inner h6 {
+        font-size:0.7em;
+        margin-left:-20px;
+    }
+
+
+    .sect-011 .inner p {
+        font-size: 1.5em;
+    }
+
+    .sect-012 h2 {
+        font-size:1.5em;
+        margin-bottom:20px;
+        padding-top: 20px;;
+    }
+
+    .sect-012 .video_area h3 {
+        font-size:0.9em;
+    }
+
+    .sect-013 h2 {
+        font-size:0.9em;
+        padding: 10px 0;
+    }
+
+    .sect-014 h2 {
+        font-size:28px;
+    }
+
+    .sect-014 .mediabox h3 {
+        font-size:0.8em;
+    }
+
+    .sect-014 .mediabox p {
+        font-size:0.7em;
+    }
+
+    .sect-015 .p25 h2 {
+        font-size:40px;
+    }
+
+    .sect-015 .p22 {
+        font-size:20px;
+        width:80%;
+    }
+
+    .sect-015 .p24 h2 {
+        font-size:2.25em;
+    }
+
+    .sect-015 .p21 {
+        font-size: 12px;
+    }
+
+    .sect-015 .p21 strong {
+        font-size:18px;
+    }
+
+    .sect-015 .p24 p {
+      font-size:24px;
+    }
+
+    .sect-15 .p24 h2 {
+      font-size: 2.3em;
+    }
+
+    .sect-016 {
+        padding:20px 10px;
+    }
+
+
+    .sect-016 .treatment_text01 {
+        width:100%;
+    }
+    .sect-016 .treatment_text01 {
+        font-size:1em;
+    }
+
+    .sect-016 .treatment_text01 .treatment_text_bottom {
+        padding: 20px 20px;
+        font-size:0.9em;
+    }
+
+    .sect-016 .treatment_text01 .treatment_text02 h2 {
+        font-size:1.1em;
+    }
+
+    .sect-016 .inner .inner_text h5 {
+        padding: 1vh 0;
+    }
+
+    .sect-016 .inner .inner_text h5 strong {
+        font-size: 2em;
+    }
+
+    .sect-016 .inner h6 {
+ /*       border: 1px solid black;*/
+        padding: 5px 0;
+        font-size:6px;
+    }
+
+    .sect-016 .inner h3, .sect-020 .inner h3 {
+        font-size:0.8em;
+    }
+
+    .sect-016 .inner .inner_text h4 {
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+
+    .sect-016 .treatment_img_txt {
+        width:85%;
+    }
+
+    .treatment_img_txt .treatment_txt p {
+        font-size:0.9em;
+    }
+
+
+
+    .sect-016 .inner {
+        width: 100%;
+    }
+    .sect-016 .inner h1 {
+        width: 100%;
+        margin: -32px auto 30px;
+        font-size: 0.9em;
+    }
+
+    .sect-016 .inner h2 {
+        font-size:0.8em;
+    }
+
+    .sect-016 .inner .inner_text h5 em {
+        font-size: 1em;
+        font-style: normal;
+    }
+
+
+    .sect-018 .inner h3 {
+        font-size: 0.9em;
+    }
+
+    .sect-018 .inner p {
+        font-size:16px;
+    }
+
+    .sect-018 .inner p span {
+        font-size: 16px;
+    }
+
+    .sect-018 .inner .w95 h4 {
+      font-size:1em;
+    }
+
+    .sect-018 .inner .w95 h5 {
+        font-size: 0.75em;
+    }
+
+
+    .sect-019 .inner .box {
+        width: 95%;
+    }
+
+    .sect-019 .inner .box .txt {
+        font-size: 8px;
+    }
+
+    .sect-019 .inner .box .text03 {
+        font-size:1em;
+        margin: 10px auto -40px;
+    }
+
+    .sect-019 .inner .box-01 {
+        font-size:1.1em;
+    }
+
+    .sect-019 .inner .box .text03 {
+        width: 95%;
+    }
+
+    .sect-020 .inner h1 {
+        font-size:0.85em;
+        width:100%;
+    }
+
+    .sect-020 .inner h2 {
+        font-size:0.8em;
+    }
+
+    .sect-020 .inner .inner_text h5 em {
+        font-size: 1em;
+    }
+
+    .sect-020 .inner .inner_text h5 strong {
+        font-size: 2em;
+    }
+
+    .sect-020 .inner h6 {
+        font-size:6px;
+        padding: 5px 0;
+    }
+
+    .sect-020 .inner .inner_text h4 {
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    .sect-020 .treatment_text01 {
+        width: 100%;
+    }
+
+    .sect-020 .treatment_text02 h2 {
+        font-size:0.7em;
+    }
+
+    .sect-020 .treatment_img_txt {
+        width: 95%;
+    }
+
+
+    .sect-020 .treatment_img_txt .treatment_txt {
+        font-size: 0.6em;
+    }
+
+
+    .sect-020 .treatment_text01 .treatment_text_bottom {
+        padding: 20px 10px;
+        font-size: 0.7em;
+    }
+    .sect-022 .inner h2 {
+        font-size:1.25em;
+    }
+
+    .sect-022 .inner p.p25 {
+        font-size: 1.25em;
+        margin:3vh;
+    }
+
+    .sect-022 .inner p.p26 {
+        font-size: 1em;
+        width: 65%;
+        margin:20px auto;
+    }
+
+    .sect-024 .inner p {
+        font-size:0.6em;
+    }
+
+    .sect-024 .inner h4 {
+        font-size:0.7em;
+    }
+
+    .sect-024 .inner h1 {
+        margin: -55px auto 60px;
+    }
+
+    .sect-024 .inner .shipment-info h4, .sect-028 .inner .shipment-info h4 {
+        color: #000;
+        font-size: 1.1em;
+    }
+
+    .sect-024 .inner .shipment-info h5, .sect-028 .inner .shipment-info h5 {
+        font-size: 1.1em;
+    }
+
+    .sect-024 .inner .shipment-info p, .sect-028 .inner .shipment-info p {
+        font-size: 0.75em;
+    }
+    .sect-024 .inner .shipment-info h6, .sect-028 .inner .shipment-info h6 {
+        font-size: 2em;
+    }
+
+    .sect-028 .preface {
+      width:90%;
+    }
+
+    .sect-028 .preface h6 {
+      font-size:1em;
+    }
+
+    .sect-028 .preface p {
+      font-size:0.8em;
+    }
+
+    .subscription p.bottom {
+        font-size:0.75em;
+        padding-top:2vh;
+    }
+
+    .sub-inner h2 {
+        font-size:0.85em;
+    }
+
+    .sub-inner h3 {
+        font-size: 0.6em;
+    }
+
+    .sub-inner p {
+        font-size:0.75em;
+    }
+
+
+    .sub-inner h3.amount {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .sub-inner h5, .sub-inner h6 {
+        font-size: 0.85em;
+    }
+
+    .sub-inner button a {
+        font-size:18px;
+    }
+
+    .sect-028 .inner .txt p {
+        font-size:0.8em;
+    }
+
+    .sect-028 .inner h4 {
+        font-size: 1em;
+    }
+
+    .sect-028 .inner h1 {
+        width: 70%;
+        margin: -55px auto 16px;
+    }
+
+    .sect-028 h1.title {
+        padding-bottom: 20px;
+    }
+
+    .sect-029 {
+        padding: 60px 0;
+    }
+
+    .sect-029 .inner {
+        padding: 20px;
+    }
+
+    .sect-029 .inner .shipment-details h3 {
+        font-size: 8px;
+    }
+
+
+    .sect-029 .inner h2 {
+        font-size:18px;
+    }
+
+    .sect-029 .inner .shipment-details h4 strong {
+        font-size: 2em;
+    }
+
+    .sect-029 .inner .shipment-details h4 em {
+        font-size: 1em;
+    }
+
+    .sect-029 .inner .shipment-details p {
+        text-align: center;
+        font-size: 0.9em;
+        border-radius:10px;
+    }
+
+
+
+    .sect-029 h1.h01 {
+        font-size:18px;
+        padding:3vh auto 4vh;
+    }
+
+    .sect-029 .inner {
+        margin: 40px auto;
+    }
+
+
+    .sect-030 .txt02 h1 {
+        font-size: 1.75em;
+    }
+
+    .subscription h1 {
+        padding: 4vh 0;
+        font-size:2em;
+    }
+
+    .sect-030 h2 {
+      font-size:0.9em;
+    }
+
+    .sect-030 .txt01 {
+        font-size:0.75em;
+        padding: 2vh 0 3vh 2vh;
+    }
+    .sect-030 .txt02 p {
+        font-size: 1.5em;
+        padding: 1vh 0;
+    }
+
+    .sect-030 .txt02 h2 {
+        font-size: 1.5em;
+    }
+
+    .sect-030 .txt02 h1 {
+        font-size: 1.75em;
+    }
+
+    .sect-030 .txt04 {
+        width: 92%;
+        margin: 20px auto;
+    }
+
+
+
+    .sect-030 .txt04 .txt04_txt strong {
+        font-size: 1.25em;
+    }
+
+    .sect-030 .txt07 {
+        font-size: 0.75em;
+        /*padding-right:5px;*/
+        /*text-align: right;*/
+        font-weight:bold;
+        line-height:2em;
+    }
+
+    .sect-030 .txt05 {
+        width: 90%;
+    }
+
+    .sect-030 .txt04 .txt04_txt {
+      font-size: 0.7em;
+    }
+
+    .sect-030 .txt05 .txt05_txt {
+        font-size: 0.6em;
+    }
+
+    .sect-030 .txt05 .txt05_txt strong {
+        color: #B6362D;
+        font-size: 1.2em;
+    }
+
+    .sect-030 .txt06 {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .sect-030 .txt08 .txt {
+        vertical-align: middle;
+        font-size: 12px;
+    }
+
+    .sect-030 .txt08 .txt strong {
+        color: #B6362D;
+        font-size: 1.5em;
+    }
+
+    .sect-030 .txt06 .txt06_txt {
+        font-size: 12px;
+    }
+
+    .sect-030 .txt06 .txt06_txt strong {
+        font-size: 1.25em;
+        color: #B6362D;
+    }
+
+    .sect-030 .txt06 .txt06_bottom {
+        font-weight: bold;
+        padding-left: 20px;
+        font-size: 0.8em;
+    }
+
+    .sect-030 .txt06 .txt-sm {
+        font-size:8px;
+        padding:0 20px;
+    }
+
+    .sect-031 {
+        padding:10px 0;
+    }
+
+    .sect-031 .inner {
+        width:90%;
+    }
+
+    .sect-031 .inner .txt h2 {
+        font-size:0.85em;
+    }
+    .sect-031 .inner .txt p {
+        font-size:0.5em;
+    }
+
+    .sect-031 .inner .img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .sect-018 {
+        background: #d4d8da;
+        background-image: url('https://res.cloudinary.com/intense-co-ltd/image/upload/v1594706625/Tokio%20Inkarami/img26_hhmtja.jpg');
+        background-position: center 55px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .sect-033 {
+        font-size: 0.8em;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
+
+ @media (max-width: 375px) {
+    .sect-002 h1 {
+      font-size:1.25em;
+    }
+
+    .sect-003 .inner p {
+      font-size:0.8em;
+    }
+
+    .sect-007 .inner h2 {
+      font-size: 1.25em;
+    }
+
+    .sect-011 .inner p {
+      font-size:1.25em;
+    }
+
+    .sect-013 h2 {
+      font-size:0.75em;
+    }
+
+    .sect-018 .inner h3 {
+      font-size: 0.8em;
+    }
+
+    .sect-020 .treatment_text01 .treatment_text_bottom {
+      padding: 20px 10px;
+      font-size: 0.6em;
+    }
+
+    .sect-030 .txt06 .txt06_txt {
+      font-size: 10px;
+    }
+
+
+ }
+
+
+
+ @media (max-width: 350px) {
+
+    .sect-001 .bottom-text h5 {
+      font-size: 1em;
+    }
+
+
+    .sect-003 .inner {
+        width: 90%;
+    }
+
+    .sect-003 .inner .img {
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+
+    .sect-003 .inner .txt h2 {
+        font-size:0.7em;
+    }
+
+    .sect-003 .inner .txt p {
+        font-size:0.6em;
+    }
+
+    .sect-004 .inner h2 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .sect-004 .inner h3 {
+      font-size: 1.25em;
+    }
+
+    .sect-005 .inner .sub-class .product h5 {
+        font-size:1em;
+    }
+
+    .sect-005 .inner .sub-class h2 {
+        font-size: 0.9em;
+    }
+
+    .sect-005 .inner .sub-class .product h5 span {
+    letter-spacing: -18px;
+  }
+
+    .sect-006 .inner h2 {
+        font-size: 1.2em;
+    }
+
+    .sect-006 .inner h1 {
+        font-size: 0.85em;
+    }
+
+
+
+
+
+    .sect-007 .inner p {
+        font-size: 1em;
+    }
+    .sect-007 .inner h3 {
+        font-size: 2em;
+    }
+
+    .sect-007 .inner h2 {
+        font-size: 1em;
+    }
+
+    .sect-018 .inner .w95 h5 {
+      font-size:0.9em;
+    }
+
+    .sect-018 .inner .w95 h4 {
+      font-size:0.8em;
+    }
+
+    .sect-007 .inner .w95 p {
+        font-size: 0.7em;
+    }
+
+    .sect-008 .inner h2 span {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 2.0em;
+    }
+
+    .sect-009 .inner .sub-inner-1 .title h5 {
+        text-align: center;
+        padding: 7px 0;
+        width: 90%;
+        font-size: 1.25em;
+    }
+
+    .sect-009 .inner .sub-inner-1 .ingredients {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 19px;
+        font-size: 10px;
+    }
+
+    .sect-009 .inner .sub-inner-1 .sect-009-txt {
+        width: 76%;
+        margin: 28px auto;
+        border: 1px solid #fff;
+        padding: 5px 17px;
+        box-sizing: border-box;
+        line-height: 2em;
+        font-size: 9px;
+    }
+
+    .sect-011 .inner p {
+        font-size: 1.3em;
+    }
+
+    .sect-013 h2 {
+        font-size: 0.8em;
+    }
+
+    .sect-014 .mediabox {
+        padding:20px;
+    }
+
+    .sect-014 h2 {
+        font-size: 24px;
+    }
+
+    .sect-014 .mediabox p span {
+        font-size:11px;
+    }
+
+    .sect-015 .p22 {
+        font-size: 20px;
+    }
+
+    .sect-015 .p24 h2 {
+        font-size: 32px;
+    }
+
+    .sect-015 .p21 {
+        font-size: 14px;
+    }
+
+    .sect-015 .p24 p {
+        font-size: 20px;
+    }
+
+    .sect-015 .p21 strong {
+        font-size: 16px;
+    }
+
+    .sect-016 {
+        background: #fff;
+        padding: 20px 8px;
+    }
+
+    .sect-016 .treatment_text02 h3 {
+        font-size: 1.5em;
+    }
+
+    .sect-016 .treatment_text01 .treatment_text02 h2 {
+        font-size: 0.8em;
+    }
+
+    .sect-016 .treatment_img_txt {
+        width:100%;
+    }
+
+    .sect-016 .inner h2 {
+        font-size: 0.8em;
+    }
+
+    .sect-016 .inner h6 {
+        font-size:6px;
+    }
+
+    .sect-016 .inner .inner_text h4 {
+      font-weight: bold;
+      font-size: 8px;
+    }
+
+    .sect-016 .treatment_text01 .treatment_text_bottom {
+        padding: 12px 12px;
+    }
+
+    .sect-018 .inner {
+        background: #fff;
+        width: 90%;
+        margin: 224px auto 40px;
+    }
+
+    .sect-018 .inner h3 {
+        font-size: 15px;
+    }
+
+    .sect-018 .inner p {
+        font-size: 14px;
+    }
+
+    .sect-018 .inner p span {
+        font-size: 18px;
+    }
+
+    .sect-019 .inner .box .txt {
+        font-size: 8px;
+    }
+
+    .sect-019 .inner .box .text03 {
+        font-size: 0.8em;
+    }
+
+    .sect-019 .inner .box-01 {
+        font-size: 1em;
+    }
+
+    .sect-019 .inner .box {
+        width: 99%;
+    }
+
+    .sect-020 .inner h1 {
+        margin: -38px auto 30px;
+        font-size:12px;
+    }
+
+    .sect-020 .inner h2 {
+        font-size:0.7em;
+    }
+    .sect-020 .inner .inner_text h4 {
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    .sect-020 .treatment_img_txt {
+        width: 98%;
+    }
+
+    .treatment_img_txt .treatment_txt p {
+        font-size: 1.2em;
+    }
+
+    .sect-022 .inner h2 {
+        font-size: 1.1em;
+    }
+
+    .sect-022 .inner p.p25 {
+        font-size: 1.2em;
+    }
+
+    .sect-022 .inner p.p26 {
+        width: 60%;
+      }
+
+    .subscription h1 {
+        padding: 4vh 0;
+        font-size: 1.5em;
+    }
+
+    .sub-inner h2 {
+      font-size:0.9em;
+    }
+
+    .sub-inner h3 {
+        font-size: 0.7em;
+    }
+
+    .sub-inner h5, .sub-inner h6 {
+        font-size: 0.8em;
+    }
+
+
+    .sect-024 .inner p {
+        font-size: 0.6em;
+    }
+
+    .sect-024 .inner h4 {
+        font-size: 0.9em;
+    }
+
+    .sect-028 .inner h1 {
+        width: 70%;
+        margin: -55px auto 10px;
+    }
+
+    .sect-024 .inner .shipment-info h5, .sect-028 .inner .shipment-info h5 {
+        font-size: 1em;
+    }
+
+    .sect-028 .inner .txt p {
+      font-size: 0.5em;
+    }
+
+    .sect-028 .inner h4 {
+      font-size: 0.8em;
+    }
+
+    .sect-024 .inner .shipment-info h4, .sect-028 .inner .shipment-info h4 {
+      color: #000;
+      font-size: 1em;
+    }
+
+    .sect-029 {
+        padding: 10px 0;
+    }
+
+    .sect-029 .inner h2 {
+        font-size: 16px;
+    }
+
+    .sect-030 .txt01 {
+        font-size: 0.7em;
+        padding: 2vh 0 3vh 2vh;
+    }
+
+    .sect-030 .txt02 h2 {
+        font-size: 1.5em;
+    }
+
+    .sect-030 .txt02 h1 {
+        font-size: 1.5em;
+    }
+    .sect-030 .txt06 {
+        width: 95%;
+    }
+
+    .sect-030 .txt06 .txt06_txt {
+        font-size: 11px;
+    }
+
+    .sect-030 .txt06 .txt06_txt strong {
+        font-size: 13px;
+    }
+    .sect-030 .txt06 .txt06_bottom {
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 0.7em;
+    }
+
+    .sect-030 .txt04 {
+        width: 100%;
+    }
+
+    .sect-030 .txt04 .txt04_txt {
+        font-size: 11px;
+    }
+
+    .sect-030 .txt05 .txt05_txt {
+        font-size: 0.6em;
+    }
+
+    .sect-030 .txt06 .txt-sm {
+      font-size:8px;
+      padding:0 20px;
+    }
+
+    .sect-030 .txt07 {
+        font-size: 0.66em;
+        margin-right: 10px;
+      }
+
+    .sect-031 .inner .txt h2 {
+        font-size: 0.7em;
+    }
+
+    .sect-031 .separate_order p {
+        font-size: 0.6em;
+        padding-top: 10px;
+    }
+ }

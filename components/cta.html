@@ -1,0 +1,58 @@
+<div id="tokio">
+  <div class="cta-items row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-4 products">
+      <img src="assets/index/images/img44.png" alt="プラチナム" class="img-fluid">
+      <h4>TOKIO インカラミ</h4>
+      <h5>プラチナム</h5>
+      <p>シャンプー・トリートメント</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-4 products">
+      <img src="assets/index/images/img44.png" alt="プラチナム" class="img-fluid">
+      <h4>TOKIO インカラミ</h4>
+      <h5>プラチナム</h5>
+      <p>シャンプー・トリートメント</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-4 products">
+      <img src="assets/index/images/img44.png" alt="プラチナム" class="img-fluid">
+      <h4>TOKIO インカラミ</h4>
+      <h5>プラチナム</h5>
+      <p>シャンプー・トリートメント</p>
+    </div>
+  </div>
+
+<div id="app">
+  <select v-model="selected">
+      <option value="">Select</option>
+      <option 
+        v-for="product in products" 
+        v-bind:value="{ id: product.id, text: product.name, woTax: product.price }">
+        TOKIO インカラミ {{ product.name }}
+      </option>
+  </select>
+  <p>Value:
+  {{selected.id}}
+  </p>
+  <p>Text:
+  {{selected.text}}
+  </p>
+  <p>{{selected.woTax}}円</p>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+  	selected: '',
+    products: [
+    	{id: 1, name: 'プラチナム', price: 8835},
+      {id: 2, name: 'プレミアム', price: 10735},
+      {id: 3, name: 'ヘッドスパ', price: 9310}
+    ]
+  }
+})
+
+</script>
+

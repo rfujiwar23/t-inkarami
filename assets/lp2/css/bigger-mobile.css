@@ -1,0 +1,456 @@
+@media (max-width: 1200px) {
+  .purchase .platinum a, .purchase .premium a, .purchase .head-spa a {
+    font-size:0.8em;
+  }
+
+  #instafeed a {
+    max-height:200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .purchase .select h5 {
+    font-size:8px;
+  }
+
+  .purchase .platinum a, .purchase .premium a, .purchase .head-spa a {
+    font-size:0.6em;
+  }
+
+  .section_003 .text_003 h5 {
+    line-height: 2em;
+    font-size: 0.9em;
+  }
+
+  #instafeed a {
+    max-height:150px;
+  }
+}
+
+@media (max-width:768px) {
+  .mobile-profile-image {
+    margin:0 auto 2vh;
+  }
+
+  #instafeed a {
+    height:100px;
+  }
+
+  .testimonials p {
+    font-size: 0.8em;
+  }
+
+  .word-of-mouth .female .testimonials {
+    padding:20px 28px;
+  }
+
+  .word-of-mouth .female .testimonials h6, .word-of-mouth .female .testimonials p {
+    font-size: 14px;
+  }
+
+  .section_003 .text_003 h5 {
+    font-size:0.7em;
+  }
+
+  .section_003 .text_003 {
+    padding: 4vh 25px;
+    font-size: 1.3em;
+    width: 90%;
+  }
+
+  .stylist-evaluation h5 {
+    margin: 3vh 0;
+    font-size:0.8em;
+  }
+
+  .panel-title {
+    font-size:1.25em;
+  }
+
+  .purchase .select h5 {
+    font-size: 17px;
+  }
+
+  .purchase .select h3 {
+    font-size: 2em;
+  }
+
+  .purchase .platinum a, .purchase .premium a, .purchase .head-spa a {
+    font-size: 1.25em;
+    margin:3vh 0;
+  }
+
+  .purchase_and_shipment_details h3 {
+    font-family: はれのそら明朝, serif;
+    font-size: 1.1em;
+  }
+}
+
+
+
+/* smartphone view 575px and down */
+@media (max-width: 575.98px) {
+
+
+
+    .product-title {
+      font-size:1.25em;
+      font-weight:bold;
+    }
+    .reverse .row {
+    flex-direction: row-reverse;
+    }
+
+    #instafeed a {
+      height:90px;
+    }
+    .shop img {
+      position: fixed;
+      width: 80px;
+      height: 80px;
+      top: 0;
+      right: -5px;
+      z-index: 999;
+    }
+
+    .br_on {
+      display: block;
+    }
+
+    .bre_ak {
+      display: block;
+    }
+
+    .top-banner h1{
+      font-size:2em;
+    }
+
+    .top-banner h3 {
+      font-size:0.8em;
+    }
+
+    .subscription .limited-for-subscription-only p {
+      font-size:0.9em;
+    }
+
+    .subscription .limited-for-subscription-only .bargain {
+      position: absolute;
+      top: -50px;
+      left: -20px;
+    }
+
+    .subscription-warning h4{
+      font-size:1em;
+      margin-bottom:5vh;
+    }
+
+    .word-of-mouth h3{
+      font-size:1.5em;
+      margin:10px;
+    }
+
+    .word-of-mouth .female .testimonials h6, .word-of-mouth .female .testimonials p {
+      font-size:13px;
+    }
+
+    .slideRight {
+    visibility: none;
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    }
+
+    .slideLeft {
+      visibility: none;
+      animation-name: slideLeft;
+      -webkit-animation-name: slideLeft;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-timing-function: ease-in-out;
+    }
+
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+
+    }
+    @-webkit-keyframes slideRight {
+        0% {
+            -webkit-transform: translateX(-100%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+
+    }
+    @-webkit-keyframes slideLeft {
+        0% {
+            -webkit-transform: translateX(100%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+
+
+    .testimonials p {
+      font-size:0.9em;
+      font-weight:bold;
+    }
+
+    .stylist-evaluation h5 {
+      font-size: 1em;
+    }
+
+    .stylist-evaluation h6 {
+      font-size:1em;
+      font-weight:bold;
+    }
+
+
+    .section001 p {
+      font-size:0.9em;
+    }
+
+
+
+    .section_001 h4 {
+      font-size:1em;
+    }
+
+    .section_001 h3 {
+      font-size: 1.5em;
+    }
+
+    .section_001 h6 {
+      font-size:0.9em;
+      margin:30px 0;
+    }
+
+    .section002 .text p {
+      font-size: 0.9em;
+    }
+
+    .section_002 h2 {
+      font-size: 24px;
+    }
+
+    .section_002 p {
+      font-size: 0.9em;
+    }
+
+    .section_002 .fullerene p {
+      font-size:0.6em;
+    }
+
+    .section_003 .text_003 {
+      background: rgba(255, 255, 255, 90%);
+      width: 100%;
+      margin:10px auto;
+      padding: 3vh 5px;
+      text-align: center;
+      box-shadow:0 3px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .section_003 .text_003 h5 {
+      font-size:0.7em;
+    }
+
+    .subscription-warning h4 span {
+      font-size: 1.5em;
+      padding:15px;
+    }
+
+    .subscription-warning h5 {
+      font-size:1.5em;
+      margin-top:20px;
+    }
+
+    .subscription-warning p {
+      font-size: 1em;
+  }
+
+    .panel-title {
+      font-size:1em;
+    }
+
+    .what_is_inkarami h2 {
+      font-size: 1.5em;
+    }
+
+    .what_is_inkarami p {
+      font-size: 0.8em;
+      line-height: 2em;
+    }
+
+    .what_is_inkarami h4 {
+      font-size:0.8em;
+      line-height:2em;
+      margin:50px auto;
+    }
+
+    .what_is_inkarami h3 {
+      font-size: 2em;
+      margin-top: 50px;
+    }
+
+
+    .how_inkarami_works h2 {
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+
+    .how_inkarami_works p {
+      font-size: 1.3em;
+    }
+
+    .how_inkarami_works p span {
+      font-size: 0.9em;
+    }
+
+    .how_inkarami_works h4 {
+      font-size:1.25em;
+    }
+
+    .inkarami_1_2 p, .inkarami_3_4 p {
+      font-size: 1em;
+    }
+
+    .inkarami_1_2 h5 {
+      font-size: 0.9em;
+      line-height: 1.5em;
+    }
+
+    .inkarami_1_2 .graph {
+      width: 98%;
+      margin:0 auto;
+      background:rgb(255, 255, 255);
+      text-align: center;
+      padding:10px;
+    }
+
+    .inkarami_1_2 .graph p {
+      font-size:8px;
+    }
+
+    .inkarami_3_4 h6 {
+      font-size: 1em;
+    }
+
+    .section002 .text h3{
+      font-size:1.75em;
+    }
+
+    .shampoo-treatment h3 {
+      font-size:20px;
+    }
+
+    .shampoo-treatment-item p {
+      font-size:0.75em;
+    }
+
+    .shampoo-treatment-purchase {
+      width: 90%;
+    }
+
+    .shampoo-treatment-purchase .shampoo-treatment-subscription {
+      font-size: 13px;
+    }
+
+    .shampoo-treatment-purchase .shampoo-treatment-subscription p {
+      width: 100%;
+      font-size:0.75em;
+      font-weight: bold;
+      /*font-size:13px;*/
+    }
+
+
+
+    .shampoo-treatment-purchase .shampoo-treatment-subscription-price p strong {
+      font-size: 3em;
+    }
+
+
+
+    .trial-set .trial-set-item h3 {
+      font-size:0.9em;
+    }
+
+    .one-by-one h2 {
+      font-size:1.5em;
+    }
+    .one-by-one .purchase-one-by-one h2.content-desktop-tablet {
+      display:none;
+    }
+
+    .one-by-one .purchase-one-by-one h2.content-mobile {
+      display: block;
+    }
+
+    .purchase_and_shipment_details .details h2 span {
+      font-size:0.8em;
+    }
+
+
+    .purchase_and_shipment_details h3 {
+        font-size:0.9em;
+        /*text-align: center;*/
+    }
+
+    .purchase_and_shipment_details h3 span {
+        font-size:1.25em;
+        font-weight:bold;
+        padding:0 10px;
+        /*background: linear-gradient(transparent 60%, #F892A3 0%);*/
+    }
+
+    .purchase_and_shipment_details p {
+        font-size:0.8em;
+    }
+
+    footer ul {
+      margin:0 auto;
+    }
+
+    footer ul li {
+      line-height:0.9em;
+    }
+
+    footer ul li a {
+      font-size:0.7em;
+    }
+
+    footer p {
+      margin-top:20px;
+    }
+   }

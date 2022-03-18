@@ -1,0 +1,41 @@
+<div class="sect-014">
+    <h2><strong>国内の各メディア</strong>でも<br>取り上げられています。</h2>
+    <img src="assets/index/images/img16.png" width="1800" height="1316" alt="国内の雑誌多数。" class="img-fluid" />
+    <div class="mediabox" id="instagram">
+      <h3>TOKIOインカラミは欧米やアジアなど、<br>海外でも大人気！</h3>
+      <p class="mb30"><span>「日本から来た世界一のシステムトリートメント」</span>と称賛！</p>
+      <div class="w80 mb20"><img src="assets/index/images/img17.png" width="1800" height="359" alt="海外のinstagram"
+          class="img-fluid" /></div><!-- / .w80 -->
+
+      <div class="row" >
+        <div class="col-3" v-for="picture in pictures">
+            <img :src="picture.sourceUrl" :alt="picture.text" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="w80 mb20"><img src="assets/index/images/img18.png" width="1800" height="359" alt="海外のメディア掲載"
+          class="img-fluid" /></div><!-- / .w80 -->
+      <img src="assets/index/images/img19_sp.png" width="800" height="633" alt="海外の雑誌一覧" class="sp_on img-fluid" />
+    </div><!-- / .mediabox -->
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+<script>
+    var vm = new Vue({
+    el: '#instagram',
+    data: {
+      pictures: [
+        {sourceUrl: 'assets/index/images/insta01.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta02.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta03.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta04.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta05.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta06.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta07.jpg', text: 'インスタ画像'},
+        {sourceUrl: 'assets/index/images/insta08.jpg', text: 'インスタ画像'},
+      ]
+    }
+  });
+</script>

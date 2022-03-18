@@ -1,0 +1,2022 @@
+@charset "UTF-8";
+ @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+/* ==========================================================================
+   01. Reset
+   ========================================================================== */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+   line-height: 1.15; /* 1 */
+   -webkit-text-size-adjust: 100%; /* 2 */
+ }
+
+ /* Sections
+    ========================================================================== */
+
+ /**
+  * Remove the margin in all browsers.
+  */
+
+ body {
+   margin: 0;
+ }
+
+ /**
+  * Render the `main` element consistently in IE.
+  */
+
+ main {
+   display: block;
+ }
+
+ /**
+  * Correct the font size and margin on `h1` elements within `section` and
+  * `article` contexts in Chrome, Firefox, and Safari.
+  */
+
+ h1 {
+   font-size: 2em;
+   margin: 0.67em 0;
+ }
+
+ /* Grouping content
+    ========================================================================== */
+
+ /**
+  * 1. Add the correct box sizing in Firefox.
+  * 2. Show the overflow in Edge and IE.
+  */
+
+ hr {
+   box-sizing: content-box; /* 1 */
+   height: 0; /* 1 */
+   overflow: visible; /* 2 */
+ }
+
+ /**
+  * 1. Correct the inheritance and scaling of font size in all browsers.
+  * 2. Correct the odd `em` font sizing in all browsers.
+  */
+
+ pre {
+   font-family: monospace, monospace; /* 1 */
+   font-size: 1em; /* 2 */
+ }
+
+ /* Text-level semantics
+    ========================================================================== */
+
+ /**
+  * Remove the gray background on active links in IE 10.
+  */
+
+ a {
+   background-color: transparent;
+ }
+
+ /**
+  * 1. Remove the bottom border in Chrome 57-
+  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+  */
+
+ abbr[title] {
+   border-bottom: none; /* 1 */
+   text-decoration: underline; /* 2 */
+   text-decoration: underline dotted; /* 2 */
+ }
+
+ /**
+  * Add the correct font weight in Chrome, Edge, and Safari.
+  */
+
+ b,
+ strong {
+   font-weight: bolder;
+ }
+
+ /**
+  * 1. Correct the inheritance and scaling of font size in all browsers.
+  * 2. Correct the odd `em` font sizing in all browsers.
+  */
+
+ code,
+ kbd,
+ samp {
+   font-family: monospace, monospace; /* 1 */
+   font-size: 1em; /* 2 */
+ }
+
+ /**
+  * Add the correct font size in all browsers.
+  */
+
+ small {
+   font-size: 80%;
+ }
+
+ /**
+  * Prevent `sub` and `sup` elements from affecting the line height in
+  * all browsers.
+  */
+
+ sub,
+ sup {
+   font-size: 75%;
+   line-height: 0;
+   position: relative;
+   vertical-align: baseline;
+ }
+
+ sub {
+   bottom: -0.25em;
+ }
+
+ sup {
+   top: -0.5em;
+ }
+
+ /* Embedded content
+    ========================================================================== */
+
+ /**
+  * Remove the border on images inside links in IE 10.
+  */
+
+ img {
+   border-style: none;
+ }
+
+ /* Forms
+    ========================================================================== */
+
+ /**
+  * 1. Change the font styles in all browsers.
+  * 2. Remove the margin in Firefox and Safari.
+  */
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+   font-family: inherit; /* 1 */
+   font-size: 100%; /* 1 */
+   line-height: 1.15; /* 1 */
+   margin: 0; /* 2 */
+ }
+
+ /**
+  * Show the overflow in IE.
+  * 1. Show the overflow in Edge.
+  */
+
+ button,
+ input { /* 1 */
+   overflow: visible;
+ }
+
+ /**
+  * Remove the inheritance of text transform in Edge, Firefox, and IE.
+  * 1. Remove the inheritance of text transform in Firefox.
+  */
+
+ button,
+ select { /* 1 */
+   text-transform: none;
+ }
+
+ /**
+  * Correct the inability to style clickable types in iOS and Safari.
+  */
+
+ button,
+ [type="button"],
+ [type="reset"],
+ [type="submit"] {
+   -webkit-appearance: button;
+ }
+
+ /**
+  * Remove the inner border and padding in Firefox.
+  */
+
+ button::-moz-focus-inner,
+ [type="button"]::-moz-focus-inner,
+ [type="reset"]::-moz-focus-inner,
+ [type="submit"]::-moz-focus-inner {
+   border-style: none;
+   padding: 0;
+ }
+
+ /**
+  * Restore the focus styles unset by the previous rule.
+  */
+
+ button:-moz-focusring,
+ [type="button"]:-moz-focusring,
+ [type="reset"]:-moz-focusring,
+ [type="submit"]:-moz-focusring {
+   outline: 1px dotted ButtonText;
+ }
+
+ /**
+  * Correct the padding in Firefox.
+  */
+
+ fieldset {
+   padding: 0.35em 0.75em 0.625em;
+ }
+
+ /**
+  * 1. Correct the text wrapping in Edge and IE.
+  * 2. Correct the color inheritance from `fieldset` elements in IE.
+  * 3. Remove the padding so developers are not caught out when they zero out
+  *    `fieldset` elements in all browsers.
+  */
+
+ legend {
+   box-sizing: border-box; /* 1 */
+   color: inherit; /* 2 */
+   display: table; /* 1 */
+   max-width: 100%; /* 1 */
+   padding: 0; /* 3 */
+   white-space: normal; /* 1 */
+ }
+
+ /**
+  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+  */
+
+ progress {
+   vertical-align: baseline;
+ }
+
+ /**
+  * Remove the default vertical scrollbar in IE 10+.
+  */
+
+ textarea {
+   overflow: auto;
+ }
+
+ /**
+  * 1. Add the correct box sizing in IE 10.
+  * 2. Remove the padding in IE 10.
+  */
+
+ [type="checkbox"],
+ [type="radio"] {
+   box-sizing: border-box; /* 1 */
+   padding: 0; /* 2 */
+ }
+
+ /**
+  * Correct the cursor style of increment and decrement buttons in Chrome.
+  */
+
+ [type="number"]::-webkit-inner-spin-button,
+ [type="number"]::-webkit-outer-spin-button {
+   height: auto;
+ }
+
+ /**
+  * 1. Correct the odd appearance in Chrome and Safari.
+  * 2. Correct the outline style in Safari.
+  */
+
+ [type="search"] {
+   -webkit-appearance: textfield; /* 1 */
+   outline-offset: -2px; /* 2 */
+ }
+
+ /**
+  * Remove the inner padding in Chrome and Safari on macOS.
+  */
+
+ [type="search"]::-webkit-search-decoration {
+   -webkit-appearance: none;
+ }
+
+ /**
+  * 1. Correct the inability to style clickable types in iOS and Safari.
+  * 2. Change font properties to `inherit` in Safari.
+  */
+
+ ::-webkit-file-upload-button {
+   -webkit-appearance: button; /* 1 */
+   font: inherit; /* 2 */
+ }
+
+ /* Interactive
+    ========================================================================== */
+
+ /*
+  * Add the correct display in Edge, IE 10+, and Firefox.
+  */
+
+ details {
+   display: block;
+ }
+
+ /*
+  * Add the correct display in all browsers.
+  */
+
+ summary {
+   display: list-item;
+ }
+
+ /* Misc
+    ========================================================================== */
+
+ /**
+  * Add the correct display in IE 10+.
+  */
+
+ template {
+   display: none;
+ }
+
+ /**
+  * Add the correct display in IE 10.
+  */
+
+ [hidden] {
+   display: none;
+ }
+
+/* ==========================================================================
+   02. common
+   ========================================================================== */
+
+#container{ background: #D7D2CB;}
+
+#contents{ width: 900px; margin: 0 auto;　box-shadow: 0 0 10px rgba(0,0,0,.3);}
+@media screen and (max-width:899px) {
+#contents{ width: 100%; }
+}
+
+.logo {
+   width:300px;
+}
+
+.salon {
+   width:20%;
+   text-align: right;
+   margin:0 auto 20px;
+}
+
+.cart_btn {
+  background: url("../images/btn03.png") no-repeat top center;
+  background-size: cover;
+  height: 120px;
+  width: 100%;
+  border: none;
+  margin: auto;
+}
+
+header {
+   background:#fff;
+}
+
+.sect-001 {
+   /*background:url("../images/bg01.png") no-repeat;*/
+   /*min-height: 100%;*/
+   background-position: center center;
+   background-size:cover;
+   /*padding:0 40px;*/
+   height: calc(100% - 10px);
+   position:relative;
+   /*display: grid;
+   grid-template-rows:1fr 5fr 1fr;*/
+}
+
+.sect-001 .title {
+  background-color: rgba(66,55,50, 0.8);
+  position:absolute;
+  top:0;
+  left: 0;
+  right:0;
+}
+
+.sect-001 .bottom-text {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.sect-001 .bottom-text h5 {
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+  font-size: 3em;
+  padding-bottom: 5vh;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  text-shadow: 5px 1px 15px #000;
+  line-height:2em;
+  -webkit-stroke-color: black;
+
+}
+
+.sect-001 .title h1 {
+  padding-top:1vh;
+  width:100%;
+  margin:10px auto;
+}
+
+.sect-001 .title h2{
+  text-align: center;
+  color:#fff;
+  font-size:1.8em;
+}
+
+
+/*.sect-001 p {
+   color:#fff;
+   position:relative;
+   bottom:100px;
+   font-size:3em;
+   text-align: center;
+}*/
+
+.sect-002 {
+   background:#fff;
+   background-size: cover;
+   padding-top:15px;
+}
+.sect-002 h1 {
+   text-align: center;
+   font-style: italic;
+   /*text-shadow: 0px 1px, 1px 0px, 1px 0px;*/
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   color:#B6362D;
+}
+
+/*sect003*/
+.sect-003 {background:#fff;padding: 20px 0;}
+
+.sect-003 .inner{ border:2px solid #60269D; width:80%; margin:0 auto;}
+
+.sect-003 .inner h2 {
+   color:#60269D;
+   font-weight: bold;
+}
+
+.sect-003 .inner .img {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+/* sect-004 */
+
+.sect-004 {
+   background:url("../images/bg01.jpg");
+   background-size: cover;
+   padding:20px 0;
+}
+
+.sect-004 .inner {
+   widows: 88%;
+   margin:0 auto;
+}
+.sect-004 h1 {
+   color: #706155;
+   text-align:center;
+   padding:5vh 0;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+
+
+.sect-004 .inner h2 {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   color:#706155;
+   transform: translate(-50%, -50%);
+   display: inline-flex;
+}
+
+.sect-004 .inner h3 {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   text-align:center;
+   font-size: 3em;
+}
+
+.sect-004 .inner h3 strong {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   text-align:center;
+   color:#B6362D;
+}
+
+
+
+.sect-005 .inner {
+  background:url("../images/img-007.png") no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.sect-005 .inner .area {
+  z-index: 2;
+  /*bottom:10px;
+  left:30px;*/
+}
+
+.sect-005 .inner .discount {
+  width:90%;
+  /*bottom:100px;*/
+}
+
+.sect-005 .inner .sub-class h2 {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   text-align:center;
+   color:#B6362D;
+   padding-top:5vh;
+   font-size:1.5em;
+}
+
+.sect-005 .inner .sub-class p {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   text-align:center;
+   color:#706155;
+   font-size:2em;
+   line-height:2em;
+}
+
+.sect-005 .inner .sub-class p strong {
+   color:#B6362D;
+}
+
+
+.sect-005 .inner .sub-class ul {
+   list-style: none;
+   display: flex;
+   width:100%;
+   margin:0 auto;
+}
+
+.sect-005 .inner .sub-class ul li {
+   /* flex: 1 1 100%; */
+   /* text-align: center; */
+   color:#fff;
+   background:#B6362D;
+   padding:1vh;
+   font-size:1.25em;
+   font-weight:bold;
+   margin:2vh;
+}
+
+.sect-005 .inner .sub-class .red p {
+   color:#fff;
+   background:#B6362D;
+   font-size:1.2em;
+}
+
+.sect-005 .inner .sub-class .product p{
+   text-align: center;
+}
+
+.sect-005 .inner .sub-class .product h4{
+   text-align: center;
+}
+
+.sect-005 .inner .sub-class .product h5{
+   text-align: center;
+   font-weight:bold;
+}
+
+.sect-005 .inner .sub-class .product h5 span {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   color:#A02D1A;
+   font-size:3em;
+   letter-spacing: -10px;
+}
+
+.sect-005 .inner .sub-class .product h5 strong {
+   text-align: center;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   color:#A02D1A;
+   padding-left:1vw;
+}
+
+.sect-005 .inner .sub-class .product h6 {
+   background:#E2DBCC;
+   padding:1vh;
+   border:1px solid #9a9a9a;
+   text-align: center;
+   max-width:360px;
+   font-size:0.9em;
+   margin:0 auto;
+}
+
+
+
+
+
+.sect-006 .inner {
+   background:url("../images/img-009.png");
+   padding: 80px 0;
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: cover;
+}
+
+
+.sect-006 .inner h1 {
+   color: rgb(117,101,85);
+   font-size: 1.5em;
+   line-height: 2em;
+   text-align: center;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+
+.sect-006 .inner h2 {
+   font-weight: bold;
+   text-align: center;
+   padding-top:20px;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.sect-007 .inner {
+   background:#fff;
+}
+
+.sect-007 .inner p {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sect-007 .inner h3 {
+   text-align: center;
+    font-size: 2.75em;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    color: #B6362D;
+}
+
+.sect-007 .inner h2 {
+   text-align: center;
+   font-size: 2em;
+   color: #858947;
+   line-height: 1.75em;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.sect-007 .inner .w95 p {
+   font-family: "Noto Sans JP";
+   font-size: 20px;
+   line-height: 2.0;
+   box-sizing: border-box;
+   font-weight: 400;
+}
+
+.sect-007 .inner .w95 p em {
+   color: #be4450;
+   font-style: normal;
+   font-weight: bold;
+   text-align: left;
+}
+
+.sect-007 .inner .txtarea{
+   /* background: blue; */
+   width:85%;
+   margin:0 auto;
+   border: 10px solid transparent;
+   padding:5px 0;
+}
+
+.sect-007 .inner .txtarea h3 {
+   color:#FB7C18;
+   text-align: left;
+}
+
+.sect-007 .inner .txtarea h2 {
+   background-color: #764C23;
+   color:white;
+   text-align: left;
+   max-width: 35%;
+   text-align: center;
+   margin-left: 2vw;
+}
+
+.sect-007 .inner .txtarea p{
+   font-size:1.25em;
+   line-height: 2em;
+   text-align: left;
+   font-family: "Noto Sans JP";
+   font-weight: normal;
+}
+
+.sect-008 .inner {
+   background:#fff;
+   width:100%;
+   margin: 0 auto;
+}
+
+.sect-008 .inner h2 {
+   color: #ff801e;
+   text-align: center;
+   font-size: 44px;
+   font-weight: bold;
+   font-family: 'Noto Serif JP', serif;
+}
+
+.sect-008 .inner h2 span {
+   display: block;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+   line-height: 3.0em;
+   margin: 20px 0 40px;
+   font-family: "Noto Sans JP", serif;
+}
+
+.sect-008 .inner p {
+   font-size: 24px;
+   text-align: center;
+   line-height: 1.8em;
+   font-weight: bold;
+   color: #000;
+}
+
+
+
+
+
+.sect-009 .inner {
+   background: url("../images/img07.jpg") no-repeat top center;
+   padding: 40px 0;
+   background-size: cover;
+   line-height: 0;
+}
+
+.sect-009 .inner .sub-inner-1 {
+   width:95%;
+   margin:0 auto;
+}
+
+.sect-009 .inner .sub-inner-1 .title h5 {
+   text-align: center;
+    padding: 40px;
+    width: 85%;
+    margin: 5vh auto;
+    background: #fff;
+    opacity: 0.8;
+    font-size: 2em;
+}
+
+.sect-009 .inner .sub-inner-1 .ingredients {
+   display: inline-block;
+    vertical-align: middle;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.sect-009 .inner .sub-inner-1 .steps {
+   margin:20px auto;
+}
+
+.sect-009 .inner .sub-inner-1 .sect-009-txt {
+   width: 80%;
+   margin: 40px auto;
+   border: 1px solid #fff;
+   padding: 15px 20px;
+   box-sizing: border-box;
+   line-height:2em;
+   font-size: 24px;
+   color: #fff;
+}
+
+.sect-009 .inner .sub-inner-1 .sect-009_chart {
+   background:#fff;
+}
+
+.sect-009 .inner .sub-inner-1 .sect-009_chart h3 {
+   border: 1px solid #000;
+   padding: 10px;
+   font-size: 18px;
+   display: inline-block;
+   margin: 20px;
+}
+
+.sect-009 .inner .sub-inner-1 .sect-009_chart p {
+   margin-left: 20px;
+}
+
+
+
+.sect-010 .inner {
+   background: url(../images/bg01.jpg) no-repeat top center;
+   background-size: cover;
+   line-height: 0;
+}
+
+.sect-010 .inner .sect010_steps  {
+   text-align:center;
+}
+
+.sect-010 .inner .sect010_steps .s10_text p {
+   padding: 24px;
+   line-height: 2em;
+   font-size: 20px;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   font-weight: bold;
+}
+
+.sect-010 .inner .sect010_steps .s10_text p strong {
+   font-size: 1.5em;
+    color: #BA1425;
+}
+.sect-010 .inner .sect010_steps .s10_inner {
+   width:85%;
+   /* background:blue; */
+   margin:0 auto;
+}
+
+.sect-010 .inner .sect010_steps .s10_inner h6 {
+   font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.sect-010 .inner .sect010_steps .s10_inner h6.component01 {
+   color: #695359;
+}
+
+.sect-011 .inner {
+   background: url("../images/img-015.png") no-repeat top center;
+   padding: 80px 0;
+   background-size: cover;
+   line-height: 0;
+}
+
+.sect-011 .inner p {
+   line-height: 2em;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   font-size: 45px;
+   color: #BB474F;
+   font-weight: bold;
+   text-align: center;
+}
+
+.sect-012 {
+   background: linear-gradient(to bottom, #d8c9aa 0%,#d8c9aa 44%,#ffffff 100%);
+   padding-bottom: 60px;;
+}
+
+.sect-012 h2 {
+   text-align: center;
+   color: #736357;
+   font-size: 44px;
+   font-weight: bold;
+   font-family: 'Noto Serif JP', serif;
+   margin-bottom: 80px;
+   line-height: 2.0;
+}
+
+.sect-012 .video_area {
+   width: 75%;
+    margin: 0 auto 4vh;
+}
+
+.sect-012 .video_area h3 {
+   color: #736357;
+   font-size: 24px;
+   text-align: left;
+   font-weight: 400;
+   font-family: 'Noto Serif JP', serif;
+   margin-bottom: 20px;
+}
+
+.sect-013 {
+   background:#fff;
+}
+
+.sect-013 h2 {
+   text-align: center;
+   color: #706255;
+   font-size: 1.5em;
+   background: #fff;
+   padding: 20px;
+   /* font-style: italic; */
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   font-weight: 500;
+}
+
+.sect-013 h2 strong {
+   font-size: 1.25em;
+   color: #B6362D;
+}
+
+
+.sect-014 {
+   background: linear-gradient(to bottom, #d8c9aa 0%,#ffffff 50%,#ffffff 100%);
+   padding: 80px 0;
+}
+
+.sect-014 h2 {
+   text-align: center;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   line-height: 2em;
+   font-size: 48px;
+   color: #534641;
+}
+
+.sect-014 h2 strong {
+   font-size: 1.4em;
+   background: linear-gradient(transparent 60%, #fff 60%);
+}
+
+.sect-014 .mediabox {
+   width: 95%;
+   margin: 0 auto;
+   background: url(../images/bg02.jpg) no-repeat top center;
+   background-size: cover;
+   box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+   box-sizing: border-box;
+   padding: 40px;
+}
+
+.sect-014 .mediabox h3 {
+   text-align: center;
+   color: #fff;
+   font-family: 'Noto Serif JP', serif;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 1.5;
+   background: #603813;
+   padding: 10px 0;
+   margin-bottom: 40px;
+}
+
+.sect-014 .mediabox p {
+   text-align: center;
+   font-size: 22px;
+   font-family: 'Noto Serif JP', serif;
+   font-weight: 500;
+}
+
+.sect-014 .mediabox p span {
+   color: #ff8000;
+   font-weight: 600;
+   font-style: normal;
+   font-family: "Noto Sans JP", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+.sect-014 .mediabox .insta_list {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 40px;
+   list-style: none;
+}
+
+
+
+/* sect-015 */
+
+.sect-015 {
+   background: url(../images/bg01.jpg) no-repeat top center;
+   background-size: cover;
+   /*padding:40px 0;*/
+}
+
+.sect-015 .p24 p {
+   font-weight: bold;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   font-size: 32px;
+   margin: 10px 0;
+}
+
+.sect-015 .p24 p.to-right {
+   text-align: right;
+}
+
+.sect-015 .p24 h2 {
+   text-align: center;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   font-size: 64px;
+   color: #fe8e78;
+   text-shadow: 1px 2px 3px #000;
+}
+
+.sect-015 .p21 {
+   border: 1px solid #000;
+   width: 86.5%;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 28px;
+   font-weight: bold;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.sect-015 .p21 strong {
+   color: rgb(254,89,76);
+   font-size: 40px;
+}
+
+.sect-015 .p22 {
+   text-align: center;
+   font-size: 36px;
+   line-height: 2em;
+   border-top: 4px solid rgb(254,89,76);
+   border-bottom: 4px solid rgb(254,89,76);
+   width: 70%;
+   color: rgb(254,89,76);
+   font-weight: bold;
+   margin: 5vh auto;
+}
+
+
+.sect-016 {
+   background:#fff;
+   padding:40px 0;
+}
+
+
+.sect-016 .treatment_text01 {
+   width: 70%;
+   margin: 0 auto;
+   padding-top: 10px;
+   /* border: 4px solid white; */
+   background: url("../images/bg03.png");
+   background-size: cover;
+}
+
+.sect-016 .treatment_text01, .sect-016 .treatment_text02 h3 {
+   text-align: center;
+   font-size: 1.5em;
+   margin-top: 20px;
+   font-weight: bold;
+}
+
+.sect-016 .treatment_img_txt {
+   width:70%;
+   /* background:blue; */
+   margin:0 auto;
+}
+
+.sect-016 .treatment_text01 .treatment-circle-img {
+   margin:-54px auto 10px;
+}
+
+.sect-016 .treatment_text01 .treatment_text_bottom {
+   padding: 20px 30px;
+   font-size: 0.8em;
+   line-height: 1.5em;
+   font-weight:normal;
+   text-align:left;
+}
+
+
+.sect-016 .treatment_img_txt .treatment_txt {
+   font-weight:normal;
+   font-size:0.8em;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.sect-016 .treatment_img_txt .treatment_txt strong {
+   font-size: 1.25em;
+   line-height: 1.25em;
+   color: #B50D2E;
+}
+
+
+
+
+
+
+.sect-018 {
+   background: #d4d8da;
+   background-image: url('../images/img26.jpg');
+   background-position: center 85px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   padding-bottom: 40px;
+   overflow: hidden;
+}
+
+.sect-018 .inner {
+   background: #fff;
+   width: 90%;
+   margin: 350px auto 40px;
+   box-sizing: border-box;
+   padding: 20px;
+}
+.sect-018 .inner h3 {
+   text-align: center;
+   color: #736357;
+   font-weight: bold;
+   font-family: 'Noto Serif JP', serif;
+   font-size: 32px;
+   line-height: 1.8;
+   margin-bottom: 40px;
+}
+
+.sect-018 .inner p {
+   text-align: center;
+   font-size: 24px;
+   line-height: 2.0;
+}
+
+.sect-018 .inner p span {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.sect-018 .inner p span.orange {
+      color:#FE594C;
+    }
+
+.sect-018 .inner p em {
+   background: linear-gradient(transparent 60%, #ffff66 60%);
+   font-style: normal;
+}
+
+.sect-018 .inner .w95 h4 {
+      font-size:1.25em;
+    }
+
+    .sect-018 .inner .w95 h5 {
+        font-size: 1em;
+    }
+.mb30 {
+   margin-bottom: 30px !important;
+}
+
+
+.sect-019 {
+   background:#fff;
+   padding-bottom:80px;
+}
+
+
+.sect-019 .inner {
+   padding:2vw 2vh;
+}
+.sect-019 .inner .box {
+   width: 90%;
+   margin: 0 auto;
+   border: 3px dashed #BBC4D1;
+   padding: 8px;
+}
+
+.sect-019 .inner .box .txt {
+   display: inline-block;
+   vertical-align: top;
+   width: 50%;
+   line-height: 2em;
+   color: #736358;
+   font-weight: bold;
+   font-size: 1.25em;
+}
+
+
+.sect-019 .inner .box .text03 {
+   width: 75%;
+   margin: 20px auto -30px;
+   font-size: 2em;
+   line-height: 1.5em;
+   padding: 2vh;
+   background: #A1ACBD;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
+
+.sect-019 .inner .box .text03 strong {
+   color: #FFFE00;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.sect-019 .inner .box-01 {
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   text-align: center;
+   margin: 5vh;
+   font-size: 1.75em;
+   line-height: 2em;
+   color: #BC4450;
+}
+
+
+/* sect-020 */
+.sect-020 {
+   background: #fff;
+}
+
+.sect-020 .inner, .sect-016 .inner {
+   width:94%;
+   margin:0 auto;
+   border:5px #D3D3D3 solid;
+   padding:20px;
+}
+
+.sect-016 .inner h3, .sect-020 .inner h3 {
+  color:#B50D2E;
+}
+
+.sect-016 .inner h3 span, .sect-020 .inner h3 span {
+  color:#B50D2E;
+  font-size:2em;
+}
+
+.sect-016 .inner h3 em, .sect-020 .inner h3 em {
+  color:#000;
+  font-style: normal;
+}
+
+.sect-016 .inner h3 em span, .sect-020 .inner h3 em span {
+  font-size:1.5em;
+  color:#000;
+}
+
+
+
+
+.sect-020 .inner h1, .sect-016 .inner h1 {
+   background:rgb(114,99,86);
+   color:white;
+   width:80%;
+   margin:-50px auto 30px;
+   text-align: center;
+   font-size:2em;
+   padding:10px;
+   font-weight:bold;
+   font-style: italic;
+   transform: rotate(-3deg);
+}
+.sect-020 .inner h2, .sect-016 .inner h2 {
+   color:rgb(114,99,86);
+   font-weight: bold;
+   text-align:center;
+   padding-bottom:3vh;
+}
+
+.sect-020 .inner h2 strong, .sect-016 .inner h2 strong {
+   color:rgb(222,126,126);
+   font-weight:bold;
+   font-style: italic;
+}
+
+.sect-020 .inner h6, .sect-016 .inner h6 {
+   border:1px solid black;
+   padding:12px;
+   font-size:16px;
+   text-align: center;
+   width:95%;
+   margin:0 auto;
+}
+
+.sect-020 .inner .inner_text, .sect-016 .inner .inner_text {
+   text-align:center;
+   margin-top: auto;
+   margin-bottom:auto;
+}
+
+.sect-020 .inner .inner_text h4, .sect-016 .inner .inner_text h4 {
+   font-weight:bold;
+}
+
+.sect-020 .inner .inner_text h5, .sect-016 .inner .inner_text h5 {
+   font-size:1em;
+   text-align: right;
+   line-height:1.5em;
+   margin-right:20px;
+   color:rgb(181,20,35);
+   padding:3vh 0;
+}
+
+.sect-020 .inner .inner_text h5 strong, .sect-016 .inner .inner_text h5 strong  {
+   font-size:5em;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.sect-020 .inner .inner_text h5 em, .sect-016 .inner .inner_text h5 em {
+   font-size:3em;
+   font-style: normal;
+}
+
+
+.sect-020 .treatment_text01 {
+   width: 70%;
+   margin: 0 auto;
+   padding-top: 10px;
+   /* border: 4px solid white; */
+   background: url("../images/bg03.png");
+   background-size: cover;
+}
+
+.sect-020 .treatment_text01, .sect-020 .treatment_text02 h3 {
+   text-align: center;
+   font-size: 1.4em;
+   margin-top: 20px;
+   font-weight: bold;
+}
+
+.sect-020 .treatment_img_txt {
+   width:70%;
+   /* background:blue; */
+   margin:0 auto;
+}
+
+.sect-020 .treatment_text01 .treatment_text_bottom {
+   padding: 20px 30px;
+   font-size: 0.8em;
+   line-height: 1.5em;
+   font-weight:normal;
+   text-align:left;
+}
+
+
+.sect-020 .treatment_img_txt .treatment_txt {
+   font-weight:normal;
+   font-size:0.7em;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.sect-020 .treatment_img_txt .treatment_txt strong {
+   font-size: 1.25em;
+   line-height: 1.25em;
+   color: #B50D2E;
+}
+
+
+
+
+
+
+/* sect-021 */
+.sect-021 {
+   background:#CCDDE8;
+   padding-bottom:80px;
+}
+
+.sect-021 .video_area {
+   width:90%;
+   margin:20px auto;
+}
+
+.sect-022 {
+   background: url("../images/bg01.jpg") no-repeat top center;
+   background-size: cover;
+   background-color: white;
+   padding-bottom:4vh;
+}
+
+.sect-022 .inner h2 {
+   color: #A30D0B;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   text-align: center;
+   font-size: 2em;
+   line-height: 2em;
+   padding-top: 3vh;
+}
+
+.sect-022 .inner h2 strong {
+  font-size:1.5em;
+  font-style: italic;
+  padding-left:5px;
+}
+
+.sect-022 .inner p.p25 {
+   color: #80807C;
+   font-size: 2em;
+   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   line-height: 2em;
+   margin: 5vh;
+   text-align:center;
+}
+.sect-022 .inner p.p26 {
+   color: #fff;
+   padding: 10px;
+   margin: 5vh auto;
+   font-size: 2em;
+   font-weight: bold;
+   background: #A30D0B;
+   width: 50%;
+   text-align:center;
+}
+
+.sect-022 .tab-below {
+   text-align: center;
+   margin-top:4vh
+}
+
+
+/* sect-023 (商品二つ並び) */
+.sect-023 {
+   width:100%;
+}
+
+.del {
+   min-height: 300px;
+   margin: 0 auto;
+   display: -webkit-flex; /* Safari */
+   display: flex; /* Standard syntax */
+   font-family: 'MS PGothic', Osaka, Arial, sans-serif;
+ }
+
+
+ .subscription {
+   max-width:50%;
+   max-height:100%;
+   -webkit-flex: 1; /* Safari */
+   -ms-flex: 1; /* IE 10 */
+   flex: 1; /* Standard syntax */
+   text-align:center;
+
+ }
+
+ .subscription h1 {
+    padding:4vh 0;
+ }
+
+ .sub-left {
+   background:#D3DB49;
+ }
+
+ .sub-right {
+   background:#75C3E5;
+ }
+
+ .sub-inner {
+   text-align:center;
+   background:#fff;
+   width:95%;
+   margin:0 auto;
+   -webkit-flex: 1; /* Safari */
+   -ms-flex: 1; /* IE 10 */
+   flex: 1; /* Standard syntax */
+   padding-bottom:3vh;
+ }
+ .sub-inner h2 {
+   background:#808080;
+   padding:10px;
+   color:white;
+ }
+
+ .sub-inner h4 {
+   color:#B53420;
+   font-size:32px;
+ }
+
+ .sub-inner h4.unselect {
+  color: #fff;
+ }
+
+ .sub-inner h3 {
+   font-size: 1.25em;
+   font-weight: bold;
+   line-height: 1.5em;
+ }
+
+ .sub-inner h3.amount {
+   background:#B53420;
+   color:white;
+   width:60%;
+   margin:0 auto;
+   font-size:2em;
+ }
+
+
+ .sub-inner h5 em {
+  font-size:.07em;
+ }
+
+ .sub-inner h5, .sub-inner h6 {
+   font-size:2em;
+   font-weight:bold;
+   line-height:1.5em;
+ }
+
+ .sub-inner h6.shipment {
+    color:#B53420;
+ }
+
+ .sub-inner h5 em, .sub-inner h6 em {
+   font-size:0.5em;
+   padding-left:-5px;
+   font-style: normal;
+ }
+
+ .sub-inner p {
+   font-weight:bold;
+ }
+ .sub-inner h6.free-shipment {
+   padding:10px 20px;
+   border:1px solid #B53420;
+   border-radius:20px;
+   color:#B53420;
+   width:90%;
+   margin:10px auto;
+ }
+
+  .sub-inner h6.free-shipment-bk {
+   padding:10px 20px;
+   border:1px solid #000;
+   color:#000;
+   border-radius:20px;
+   width:90%;
+   margin:10px auto;
+ }
+
+ .sub-inner button {
+   background:linear-gradient(0deg, rgba(28,132,37,1) 13%, rgba(69,182,87,1) 100%);;
+   color:white;
+   width:80%;
+   padding:20px 0;
+   border-radius:10px;
+ }
+
+ .sub-inner button a {
+   color:white;
+   text-decoration:none;
+   font-size:28px;
+ }
+
+ .unselect {
+    color:#fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+ }
+
+
+/* sect-024 */
+.sect-024, .sect-028 {
+   background:#fff;
+   padding:60px 0;
+}
+
+.sect-024 h1.title, .sect-028 h1.title  {
+   color: #ED4834;
+   text-align: center;
+   font-weight:bold;
+   padding-bottom: 60px;
+}
+
+.sect-024 h2.title, .sect-028 h2.title {
+   text-align: center;
+   width:30%;
+   margin:0 auto;
+}
+
+.sect-024 .inner, .sect-028 .inner {
+   width:96%;
+   margin:0 auto;
+   padding:20px;
+   border: 5px solid #ED4834;
+}
+
+.sect-024 .inner h1, .sect-028 .inner h1 {
+   width:70%;
+   margin:-80px auto 60px;
+}
+
+
+.sect-024 .inner p, .sect-028 .inner p {
+   text-align:center;
+}
+
+.sect-024 .inner h4, .sect-028 .inner h4 {
+   color:rgb(198,58,32);
+   font-weight:bold;
+   font-size:1.5em;
+   text-align: center;
+}
+.sect-024 .inner .shipment-info, .sect-028 .inner .shipment-info  {
+  text-align: center;
+}
+
+.sect-024 .inner .shipment-info h4, .sect-028 .inner .shipment-info h4 {
+   color:#000;
+   font-size:2.5em;
+}
+
+.sect-024 .inner .shipment-info h4 strong, .sect-028 .inner .shipment-info h4 strong {
+   font-size:1.5em;
+}
+
+.sect-024 .inner .shipment-info h4 em, .sect-028 .inner .shipment-info h4 em {
+   font-size:0.6em;
+   font-style: normal;
+}
+
+.sect-024 .inner .shipment-info h5, .sect-028 .inner .shipment-info h5 {
+   color:#CA3C23;
+   font-size:2.5em;
+   font-weight:bold;
+}
+
+.sect-024 .inner .shipment-info h6, .sect-028 .inner .shipment-info h6 {
+   font-size:4em;
+   color:#CA3C23;
+   font-weight:bold;
+}
+
+.sect-024 .inner .shipment-info h6 em, .sect-028 .inner .shipment-info h6 em {
+   font-size:0.6em;
+   font-style: normal;
+   color:#000;
+}
+
+.sect-024 .inner .shipment-info h2, .sect-028 .inner .shipment-info h2 {
+   color:#CA3C23;
+   border-radius:10px;
+   border:1px solid #CA3C23;
+   max-width:300px;
+   margin:20px auto;
+   padding:10px 0;
+}
+
+.sect-024 .inner .shipment-info p, .sect-028 .inner .shipment-info p {
+   color:#CA3C23;
+   font-weight:bold;
+   font-size:1.5em;
+}
+
+
+.sect-028 .preface {
+  width:80%;
+  margin:0 auto;
+  border: 3px solid #E74C3B;
+  padding: 20px;
+}
+
+.sect-028 .preface h6 {
+  font-weight:bold;
+  font-size:1.25em;
+}
+
+.sect-028 .preface p em {
+  /*font-weight:bold;*/
+  font-size:1.5em;
+  font-style: normal;
+  color: #E74C3B;
+}
+
+
+.sect-028 .preface p {
+  font-size:1em;
+}
+
+.sect-028 .preface .increase {
+  font-size:1.25em;
+}
+
+
+
+ /* sect-029 */
+
+
+.sect-029 {
+   background:#fff;
+   padding:40px;
+}
+
+.sect-029 .inner {
+   width: 92%;
+   margin:40px auto;
+   background:linear-gradient(0deg, rgba(245,173,149,1) 5%, rgba(255,255,255,1) 43%);
+   border:4px solid #ED4838;
+   font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+   padding:40px;
+}
+
+
+.sect-029 .inner .shipment-details {
+   vertical-align: center;
+}
+.sect-029 .inner .shipment-details h3{
+   color:white;
+   background: linear-gradient(0deg, rgba(237,72,59,1) 5%, rgba(251,155,136,1) 90%);
+   padding:10px 0;
+   text-align: center;
+   font-weight: bold;
+   font-size:1.25em;
+}
+
+.sect-029 .inner .shipment-details h4 {
+   color:#CA3C23;
+   line-height: 2em;
+   text-align: right;
+   font-size:1em;
+   font-weight:bold;
+}
+
+
+.sect-029 .inner .shipment-details h4 strong {
+   font-size:5em;
+}
+.sect-029 .inner .shipment-details h4 em {
+   font-size:3em;
+   font-style: normal;
+}
+
+.sect-029 .inner .shipment-details p {
+   text-align: center;
+   font-size:1.5em;
+   font-weight:bold;
+   border:1px solid #000;
+   border-radius:20px;
+   padding:15px 10px;
+}
+
+.sect-029 .inner .shipment-details h5 {
+  text-align: right;
+}
+
+.sect-029 .inner .shipment-details h5 span {
+  font-size:2em;
+  color:#A91F2E;
+  font-weight:bold;
+}
+
+.sect-029 .inner .shipment-details h5 span.yen {
+  font-size:1em;
+  color:#A91F2E;
+  font-weight:bold;
+}
+
+.sect-029 .inner .shipment-details h5 em {
+  font-size:1em;
+  color:#000;
+  font-weight:bold;
+  font-style: normal;
+}
+
+.sect-029 .inner h2{
+   font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+   font-weight:bold;
+   font-size:24px;
+   text-align: center;
+}
+
+.sect-029 h1.h01 {
+   color:#7F817F;
+   font-weight:bold;
+   text-align: center;
+   padding:2vh auto 4vh;
+}
+
+ /* sect-30 */
+
+ .sect-030 {
+    background:#fff;
+    padding:40px 0;
+ }
+
+
+ .sect-030 .txt01 {
+    padding:2vh 0 3vh 2vh;
+ }
+
+ .sect-030 .txt02 {
+    text-align:center;
+ }
+
+ .sect-030 .txt05_img {
+  margin-top: auto;
+  margin-bottom: auto;
+ }
+
+
+
+ .sect-030 .txt02 p {
+   font-size: 2em;
+   padding: 2vh 0;
+}
+
+.sect-030 .txt02 h2 {
+   font-size: 2.5em;
+   font-weight: bold;
+   padding: 2vh 0;
+}
+
+.sect-030 .txt02 h1 {
+   font-size: 4em;
+   font-weight: 800;
+   padding: 1vh 0;
+   color: #B31524;
+   font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+   width: 65%;
+   margin: 0 auto;
+   background: linear-gradient(transparent 60%, #FBFF00 60%);
+}
+
+.sect-0303 .txt02 h3 {
+   font-weight: bold;
+   font-size: 2em;
+   padding: 3vh 0;
+   color: #FD798B;
+   font-family: "Helvetica Neue", Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+}
+
+.sect-030 .txt03 p {
+   color: #000;
+   font-size: 18px;
+   text-align: left;
+   line-height: 1.8;
+   padding:0 40px;
+}
+
+.sect-030 h1 {
+   text-align: center;
+}
+
+.sect-030 .txt04 {
+   width:80%;
+   margin:20px auto;
+}
+
+.sect-030 .txt04 .txt04_txt {
+   /* vertical-align: middle; */
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
+}
+.sect-030 .txt04 .txt04_txt strong {
+   font-size: 1.25em;
+   color: #B6362D;
+}
+
+.sect-030 .txt07 {
+   /*text-align:right;*/
+   font-size:1em;
+}
+
+.sect-030 .txt05 {
+   width: 80%;
+   margin: 5vh auto;
+   border: 3px solid #FD7987;
+}
+
+.sect-030 .txt05 .txt05_txt {
+   vertical-align: middle;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.sect-030 .txt05 .txt05_txt strong {
+   color: #B6362D;
+    font-size: 1.5em;
+}
+
+.sect-030 h2 {
+  text-align:center;
+  color: #fe7989;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 0.1em;
+  padding-top: 20px;
+}
+
+.sect-030 .txt06 {
+   width:85%;
+   margin:4vh auto;
+}
+
+.sect-030 .txt06 .txt06_txt {
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 2em;
+   vertical-align: middle;
+}
+.sect-030 .txt06 .txt06_txt strong {
+   font-size: 1.25em;
+   color: #B6362D;
+}
+
+.sect-030 .txt06 .txt06_bottom {
+   font-weight:bold;
+   padding-left:20px;
+   font-size:1.25em;
+}
+
+
+
+
+.sect-030 .txt08 {
+   width:95%;
+   margin:4vh auto;
+}
+
+.sect-030 .txt08 .txt{
+   vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.sect-030 .txt08 .txt strong{
+   color: #B6362D;
+   font-size:1.25em;
+}
+
+.sect-030 .txt08 .num img {
+   vertical-align: middle;
+}
+
+
+/* sect-031 */
+.sect-031 {
+   background: #fff;
+   padding:40px 0 20px;
+}
+
+.sect-031 .inner {
+   width:80%;
+   margin:0 auto;
+   border:2px solid #60269E;
+}
+
+.sect-031 .inner .img {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.sect-031 .inner .txt h2 {
+  color:#60269E;
+  font-weight: bold;
+}
+
+
+.sect-031 .separate_order {
+   width:95%;
+   margin:40px auto;
+   border:rgb(114,99,86) solid 4px;
+   background: linear-gradient(0deg, rgba(228,226,221,1) 5%, rgba(255,255,255,1) 56%);
+}
+
+.sect-031 .separate_order h2 {
+   color:white;
+   background:rgb(117,99,86);
+   text-align: center;
+   padding:2vh 0;
+   font-size: 1.5em;
+ }
+
+ .sect-031 .separate_order h3 {
+   text-align: center;
+   font-size:1.25em;
+   padding-top:2vh;
+ }
+
+ .sect-031 .separate_order h3:hover {
+   text-decoration: underline;
+}
+
+.sect-031 .separate_order p {
+   text-align:center;
+   font-weight:bold;
+}
+
+
+
+.sect-032 {
+   background:#fff;
+}
+
+.sect-033 {
+   background:#fff;
+   padding-bottom:2vh;
+}
+
+
+.sect-033 .txt01 {
+   padding-left:20px;
+}
+
+footer {
+   width: 100%;
+    background: #603813;
+    padding: 20px 0;
+}
+
+footer p {
+   text-align: center;
+   color:#fff;
+}

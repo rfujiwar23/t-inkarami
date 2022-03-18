@@ -1,0 +1,159 @@
+.title {
+    padding:10px 20px;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 1.35em;
+    font-weight:bold;
+    color:#000;
+    /* text-decoration: underline; */
+}
+
+.title h2 span {
+    padding-bottom:3px;
+    /* border-bottom: 1px solid #5B4D42; */
+    background: rgb(96,81,70);
+    color: #fff;
+    padding:6px 10px;
+    text-shadow: 1px 1px 3px rgba(96,81,70,1);
+    background: linear-gradient(60deg, rgba(96,81,70,1) 0%, rgba(180,159,140,1) 100%);
+}
+
+.intro {
+    padding:10px 20px;
+}
+
+video {
+    width:100%;
+}
+
+.intro h3 {
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 3px;
+    border-bottom:1px solid #9a9a9a;
+}
+
+.intro h5 {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+.intro ul {
+    padding:0 20px;
+}
+
+.intro ul li {
+    font-size:0.8em;
+    line-height: 2em;
+}
+
+.message {
+    padding:10px;
+}
+
+.message p {
+    font-size:0.7em;
+    /* color:red; */
+}
+
+
+.purchase {
+    background:url(../images/summer-olympic-bnr.png) no-repeat;
+    /* padding-top:calc(100%/4); */
+    aspect-ratio: 16/4;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.purchase .to-link a {
+    text-decoration: none;
+    color:#fff;
+    background:rgba(60,60,60,0.7);
+    padding:10px 20px;
+}
+
+.purchase .to-link a:hover {
+    text-decoration: none;
+    color:#fff;
+    background:rgba(60,60,60);
+    padding:10px 20px;
+}
+
+.modal-footer .btn {
+    color: #fff;
+}
+
+.to-olympic-link {
+    position:fixed;
+    bottom:3%;
+    right:3%;
+    z-index: 999;
+    background:rgba(255,255,255,0.8);
+    border:1px solid #9a9a9a;
+    box-shadow: 1px 3px 6px rgba(60,60,60,0.7);
+    text-align: center;
+    padding:10px;
+    color:#fff;
+
+}
+
+.to-olympic-link p {
+    font-size: 0.8em;
+    color:#000;
+}
+
+.to-olympic-link a {
+    font-size: 0.8em;
+    
+}
+
+@media screen and (max-width:992px) {
+    .modal.show .modal-dialog {
+        transform: none;
+        width: 100%;
+        max-width: 900px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .modal {
+        padding-right:15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .purchase .to-link a {
+        font-size: 0.8em;
+    }
+
+    .modal.show .modal-dialog {
+        transform: none;
+        width: 100%;
+        max-width: 900px;
+        /* padding: 0 8px; */
+    }
+}
+
+@media screen and (max-width:450px) {
+    .purchase .to-link a {
+        font-size: 0.7em;
+    }
+
+    .intro {
+        padding:10px 0;
+    }
+}

@@ -1,0 +1,23 @@
+<div id="tokio">
+    <div class="cta-items row">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-4 products" v-for="item in items">
+        <img :src="item.imgUrl" :alt="item.name" class="img-fluid">
+        <h4>TOKIO インカラミ</h4>
+        <h5>{{item.name}}</h5>
+        <p>シャンプー・トリートメント</p>
+      </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+<script>
+  var tokio = new Vue({
+  el: '#tokio',
+  data: {
+    items: [
+      {name: 'プラチナム', imgUrl: 'assets/index/images/img44.png'},
+      {name: 'プレミアム', imgUrl: 'assets/index/images/img44-3.png'},
+      {name: 'ヘッドスパ', imgUrl: 'assets/index/images/img44-2.png'},
+    ]
+  }
+})
+</script>
